@@ -179,4 +179,19 @@ Get all details about a service principal:
 Get a service principal based on the display name:
 - `  Get-MgServicePrincipal -All | ?{_.DisplayName -match "app"} `
 
-Get a service principal with an applci
+Get a service principal with an application password: 
+- `  Get-MgServicePrincipal -All | ?{_.DisplayName -ne $null} `
+
+Get the Owner of a Service Principal: 
+- ` (Get-MgServicePrincipalOwner -ServicePrincipalId <id>).AdditionalProperties.userPrincipalName `
+
+Get Object owned by a service principal:
+- ` Get-MgServicePrincipalOwnedObject -ServicePrinicpalId <id> `
+
+Get object created  by a service principal:
+-  ` Get-MgServicePrincipalCreatedObject -ServicePrinicpalId <id> `
+
+Get Group and role membership of a service prinicpal
+- ` Get-MgServicePrincipalMemberOf -ServicePrinicpalId <id> | fl * `
+
+
