@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overview.md",
+                "file": "Module 1/Initial Access/App Service Abuse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "App Service Abuse"
             }
           }
         ],
@@ -179,9 +179,13 @@
   },
   "active": "0d1e34e74b06df83",
   "lastOpenFiles": [
-    "Module 1/Using Tokens with CLI tools.md",
-    "Module 1/Initial Access/Initial Access.md",
+    "Module 1/Initial Access/Function App Abuse.md",
+    "Module 1/Initial Access/App Service Abuse.md",
+    "Module 1/App Service.md",
     "Module 1/Initial Access/Illicit Consent Grant.md",
+    "Module 1/Using Tokens with CLI tools.md",
+    "Overview.md",
+    "Module 1/Initial Access/Initial Access.md",
     "Module 1/Initial Access",
     "Module 1/Enumeration/RoadTools.md",
     "Module 1/Enumeration/Enumeration.md",
@@ -197,7 +201,6 @@
     "LICENSE",
     "images/Pasted image 20241117075801.png",
     "images/Pasted image 20241117060111.png",
-    "Overview.md",
     "Module 1/Azure Kill Chain.md",
     "images/Pasted image 20241117015702.png",
     "images/Pasted image 20241116074453.png",

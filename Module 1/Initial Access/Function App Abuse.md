@@ -1,0 +1,8 @@
+- Azure Functions is Azure serverless solution to run code.
+- languages like C#, Java, Powershell and python are supported.
+- A function app is supposed to be used to react to an event like:
+	- HTTP Trigger
+	- Processing a file upload
+	- Run code on a scheduled time and more
+- App Service provides the hosting infrastructure for function apps
+- function apps support managed identity

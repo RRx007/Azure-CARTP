@@ -1,0 +1,7 @@
+- is an HTTP-based service for hosting web applications, REST APIs and mobile backends.
+- supports both Linux and Windows environment
+- each apps runs inside a sandbox but isolation depends upon app service plan.
+	- Free and Shared tiers run on shared VMs
+	- Standard and Premium tiers run on dedicated VMs
+- Windows apps (not running in windows container) have local drives, UNC shares, outbound network connectivity (unless restricted), read access to Registry and event logs
+- in the above case,  it also possible to run powershell script and command shell but the privileges will be of a low privileged workers process that uses a random application pool identity
