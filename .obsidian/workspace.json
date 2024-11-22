@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Initial Access/App Service Abuse.md",
+                "file": "Module 1/Azure Resource Manager (ARM) Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "App Service Abuse"
+              "title": "Azure Resource Manager (ARM) Templates"
             }
           }
         ],
@@ -179,13 +179,26 @@
   },
   "active": "0d1e34e74b06df83",
   "lastOpenFiles": [
+    "Module 1/Enterprise Applications.md",
+    "Module 1/Azure Resource Manager (ARM) Templates.md",
+    "Module 1/Initial Access/Phishing - Evilginx3.md",
+    "Module 1/Privilege Escalation/PrivEsc - Key Vault.md",
+    "images/Pasted image 20241121071651.png",
+    "Module 1/Privilege Escalation/PrivEsc - Automation Account.md",
+    "Module 1/KeyVault.md",
+    "Module 1/Automation Account.md",
+    "Module 1/Initial Access/Storage Account.md",
+    "Module 1/Privilege Escalation",
+    "Module 1/Azure Blob Storage.md",
+    "images/Pasted image 20241121033420.png",
     "Module 1/Initial Access/Function App Abuse.md",
     "Module 1/Initial Access/App Service Abuse.md",
-    "Module 1/App Service.md",
+    "Module 1/Initial Access/Initial Access.md",
     "Module 1/Initial Access/Illicit Consent Grant.md",
+    "Module 1/Azure Kill Chain.md",
+    "Module 1/App Service.md",
     "Module 1/Using Tokens with CLI tools.md",
     "Overview.md",
-    "Module 1/Initial Access/Initial Access.md",
     "Module 1/Initial Access",
     "Module 1/Enumeration/RoadTools.md",
     "Module 1/Enumeration/Enumeration.md",
@@ -197,22 +210,16 @@
     "Module 1/Consent and Permissions.md",
     "Module 1/Intro to Azure.md",
     "Module 1/Initial Access.md",
-    "Module 1/Enumeration.md",
     "LICENSE",
     "images/Pasted image 20241117075801.png",
     "images/Pasted image 20241117060111.png",
-    "Module 1/Azure Kill Chain.md",
     "images/Pasted image 20241117015702.png",
     "images/Pasted image 20241116074453.png",
     "images/Pasted image 20241116074425.png",
-    "Module 1/Discovery & Recon.md",
     "images/Pasted image 20241114060151.png",
     "images/Pasted image 20241114045947.png",
     "images/Pasted image 20241114045555.png",
-    "images/Pasted image 20241114045153.png",
-    "images/Pasted image 20241114044118.png",
     "images",
-    "Module 1",
-    "Welcome.md"
+    "Module 1"
   ]
 }
