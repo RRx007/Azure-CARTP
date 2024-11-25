@@ -29,7 +29,7 @@ Security Assertion Markup Language (SAML) is used for exchanging all the authent
 - Just like our PTA abuse, password change for a user or MFA won't have any effect because we are forging the authentication response.
 - the certificate can be extracted from the AD FS server with DA privileges and then can be used from any internet connected machine 
 - this is what the infamous golden SAML attacks is
-
+`https://www.cyberark.com/resources/threat-research-blog/golden-saml-newly-discovered-attack-technique-forges-authentication-to-cloud-apps`
 ## On-Prem to Cloud
 - from any on-prem machine as a normal domain user, get the ImmutableID of the target user.
 `[System.Convert]::ToBase64String((Get-ADUser -Identity onpreuser | select -ExpandProperty ObjectGUID).tobytearray())`
