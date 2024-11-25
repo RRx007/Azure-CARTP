@@ -1,4 +1,3 @@
-
 We only know the domain name or email addresses of the target organization
 - defcorphq
 We can extract some interesting information: 
@@ -42,7 +41,7 @@ Get Tenant Domains:
 Get all information ;
 ` Invoke-AADIntReconAsOutsider -DomainName defcorphq.onmicrosoft.com `
 
-
+**`https://o365blog.com/post/just-looking/`**
 ## Email ID
 We can use o365creeper to check if an email ID belong to a tenant. It makes requests to the GetCredentailType API mentioned earlier. 
 - ` https://github.com/LMGsec/o365creeper `

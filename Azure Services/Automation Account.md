@@ -26,3 +26,5 @@ Some common scenarios for automation as per MS:
 - a user -defined hybrid runbook is a member of a hybrid worker group
 - Log Analytics Agent is deployed on the VM to register it as a Hybrid Worker 
 - the hybrid worker jobs run as SYSTEM on Windows automation account. 
+
+`https://medium.com/cepheisecurity/abusing-azure-dsc-remote-code-execution-and-privilege-escalation-ab8c35dd04fe`

@@ -27,6 +27,15 @@ Request an access token (ARM)
 Request an access token for aad-graph. Supported Tokens: aad-graph, arm, batch, data lake, media, ms-graph, oss-rdbms
 - ` az account get-access-token --resource-type ms-graph `
 
+## Stealing Tokens from Az PowerShell
+- Az Powershell (older versions) stores access tokens in clear text in TokenCache.dat in the directory `C:\Users\[username]\.Azure`
+- It also stores ServicePrincipalSecret in clear-text in AzureRMContext.json if a service principal secret is used to authenticate.
+- Another interesting method is to take a process dump of Powershell and looking for tokens in it!
+- Users can save tokens using `Save-AzContext` look out for them. it can be found in the powershell history
+- Always use `Disconnect-AzAccount`
+**`https://www.lares.com/blog/hunting-azure-admins-for-vertical-escalation-part-2/`**
+
+
 ## AzureAD Module
 - AzureAD module cannot request a token but can use one for AADGraph or Microsoft Graph
 

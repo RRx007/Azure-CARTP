@@ -14,3 +14,5 @@
 - Permissions required fro basic sign-in are openid, profile, email, User.Read and offline_access.
 - This means if an organization allows a user consent for all apps an employee can grant consent to an app to read the above from their profile. 
 - there are some very interesting low impact permissions. For example User.ReadBasic.All allows the app to read displayname, first and last name, email address, openextensions and photo for all users
+
+`https://graphpermissions.merill.net/permission/`

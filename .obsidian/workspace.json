@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Hybrid Identity.md",
+                "file": "Azure Services/Automation Account.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hybrid Identity"
-            }
-          },
-          {
-            "id": "454c777dc7de9a46",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Automation Account"
             }
           },
           {
@@ -47,8 +35,7 @@
               "title": "PHS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,48 +176,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "454c777dc7de9a46",
+  "active": "edb246ea1321fa98",
   "lastOpenFiles": [
-    "Module 1/Lateral Movement/PHS.md",
-    "Module 1/Lateral Movement/Pass-Through Authentication (PTA).md",
-    "Module 1/Hybrid Identity.md",
-    "images/Pasted image 20241123071853.png",
-    "Module 1/Primary Refresh Token.md",
-    "Module 1/Lateral Movement/Pass-the-PRT.md",
-    "Module 1/Lateral Movement/Application Proxy - Cloud to On-Prem.md",
-    "images/Pasted image 20241123055540.png",
-    "Module 1/Application Proxy.md",
-    "images/Pasted image 20241123051212.png",
-    "Module 1/Dynamic Groups.md",
-    "Module 1/Entra Id.md",
-    "Module 1/Intune.md",
-    "Module 1/Azure VMs.md",
-    "Module 1/Lateral Movement",
-    "Module 1/Intro to Azure.md",
+    "Initial Access/Illicit Consent Grant.md",
+    "Consent and Permissions.md",
+    "Enumeration/BloodHound.md",
+    "Using Tokens with CLI tools.md",
+    "Enumeration/AZ PowerShell.md",
+    "Initial Access/Initial Access.md",
+    "Primary Refresh Token.md",
+    "Discovery & Recon.md",
+    "Azure Services/Intro to Azure.md",
+    "Azure Services/Entra ID/Hybrid Identity.md",
+    "Azure Services/Entra ID/Application Proxy.md",
+    "Azure Services/Entra ID/Dynamic Groups.md",
+    "Azure Services/Entra ID/Entra Id.md",
     "Overview.md",
-    "Module 1/Initial Access/Function App Abuse.md",
-    "Module 1/Azure Resource Manager (ARM) Templates.md",
-    "Module 1/Enterprise Applications.md",
-    "Module 1/Initial Access/Phishing - Evilginx3.md",
-    "Module 1/Privilege Escalation/PrivEsc - Key Vault.md",
-    "images/Pasted image 20241121071651.png",
-    "Module 1/Privilege Escalation/PrivEsc - Automation Account.md",
-    "Module 1/KeyVault.md",
-    "Module 1/Automation Account.md",
-    "Module 1/Initial Access/Storage Account.md",
-    "Module 1/Privilege Escalation",
-    "Module 1/Azure Blob Storage.md",
-    "images/Pasted image 20241121033420.png",
-    "Module 1/Initial Access/App Service Abuse.md",
-    "Module 1/Initial Access/Initial Access.md",
-    "Module 1/Initial Access",
-    "Module 1/Enumeration",
+    "Azure Kill Chain.md",
+    "Privilege Escalation/PrivEsc - Key Vault.md",
+    "Privilege Escalation/PrivEsc - Automation Account.md",
+    "Lateral Movement/Pass-Through Authentication (PTA).md",
+    "Lateral Movement/PHS.md",
+    "Lateral Movement/Application Proxy - Cloud to On-Prem.md",
+    "Lateral Movement/Pass-the-PRT.md",
+    "Initial Access/Phishing - Evilginx3.md",
+    "Initial Access/Storage Account.md",
+    "Initial Access/Function App Abuse.md",
+    "Initial Access/App Service Abuse.md",
+    "Enumeration/RoadTools.md",
+    "Azure Services/Entra ID",
+    "Azure Services",
+    "images/Pasted image 20241125002943.png",
+    "images/Pasted image 20241125002020.png",
+    "images/Pasted image 20241125001954.png",
+    "images/Pasted image 20241125001932.png",
+    "images/Pasted image 20241124235424.png",
+    "images/Pasted image 20241124235402.png",
+    "images/Pasted image 20241124235343.png",
+    "images/Pasted image 20241124082820.png",
+    "images/Pasted image 20241124082539.png",
+    "images/Pasted image 20241124072431.png",
+    "Lateral Movement",
+    "Privilege Escalation",
+    "Initial Access",
+    "Enumeration",
     "LICENSE",
-    "images/Pasted image 20241117075801.png",
-    "images/Pasted image 20241117060111.png",
-    "images/Pasted image 20241117015702.png",
-    "images/Pasted image 20241116074453.png",
-    "images/Pasted image 20241116074425.png",
     "images",
     "Module 1"
   ]

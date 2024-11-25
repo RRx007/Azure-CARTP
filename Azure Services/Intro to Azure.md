@@ -12,7 +12,7 @@ Azure is Microsoft's Cloud Computing Platform with over 200 products and cloud s
 - AI
 - DevOps
 
-## Entra ID 
+## [[Entra Id]]
 - Entra ID is MS Cloud-based identity and access management service. 
 - Can be used to access both 
 	- External resources like Azure Portal, Office 365

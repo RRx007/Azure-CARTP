@@ -43,3 +43,5 @@ Find Owners of Entra ID Groups
 MATCH p =(n)-[r:AZOwns]->(g:AZGroup) RETURN p
 ```
 
+**`https://hausec.com/2020/11/23/azurehound-cypher-cheatsheet/`**
+

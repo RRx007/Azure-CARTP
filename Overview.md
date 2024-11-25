@@ -14,3 +14,4 @@ The Course is split up into 4 modules:
 	- Data Mining 
 	- Defenses, Monitoring and Auditing
 	- Bypassing Defenses
+
