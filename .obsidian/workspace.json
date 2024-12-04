@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure Kill Chain.md",
+                "file": "Pwnd Labs/Intro to Azure Recon with Bloodhound.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure Kill Chain"
+              "title": "Intro to Azure Recon with Bloodhound"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module 1/Lateral Movement/PHS.md",
+                "file": "Pwnd Labs/Intro to Azure Recon with Bloodhound.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHS"
+              "title": "Intro to Azure Recon with Bloodhound"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,34 +177,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "edb246ea1321fa98",
+  "active": "0d1e34e74b06df83",
   "lastOpenFiles": [
-    "Azure Security.md",
+    "Tools/Setting up Tools.md",
+    "Enumeration/BloodHound.md",
+    "Pwnd Labs/Intro to Azure Recon with Bloodhound.md",
+    "Discovery & Recon.md",
+    "Enumeration/AZ PowerShell.md",
+    "Enumeration/Enumeration.md",
+    "Enumeration/Azure CLI.md",
+    "Pwnd Labs",
+    "Azure Services/Intro to Azure.md",
     "Azure Services/Entra ID/Federation.md",
     "Azure Services/Entra ID/Hybrid Identity.md",
-    "Persistence.md",
+    "Azure Services/Entra ID/Application Proxy.md",
+    "Azure Services/Entra ID/Dynamic Groups.md",
+    "Azure Services/Entra ID/Enterprise Applications.md",
     "Azure Services/Entra ID/Entra Id.md",
+    "Tools",
+    "Overview.md",
+    "Initial Access/Initial Access.md",
+    "Azure Kill Chain.md",
+    "Azure Security.md",
+    "Persistence.md",
     "Lateral Movement/Pass-Through Authentication (PTA).md",
     "Lateral Movement/Pass-the-PRT.md",
     "Azure Services/Azure VMs.md",
     "Azure Services/Automation Account.md",
     "Initial Access/Illicit Consent Grant.md",
     "Consent and Permissions.md",
-    "Enumeration/BloodHound.md",
     "Using Tokens with CLI tools.md",
-    "Enumeration/AZ PowerShell.md",
-    "Initial Access/Initial Access.md",
-    "Primary Refresh Token.md",
-    "Discovery & Recon.md",
-    "Azure Services/Intro to Azure.md",
-    "Azure Services/Entra ID/Application Proxy.md",
-    "Azure Services/Entra ID/Dynamic Groups.md",
-    "Overview.md",
-    "Azure Kill Chain.md",
-    "Privilege Escalation/PrivEsc - Key Vault.md",
-    "Privilege Escalation/PrivEsc - Automation Account.md",
-    "Lateral Movement/PHS.md",
-    "Lateral Movement/Application Proxy - Cloud to On-Prem.md",
     "Azure Services/Entra ID",
     "Azure Services",
     "images/Pasted image 20241125002943.png",
@@ -221,7 +224,6 @@
     "Initial Access",
     "Enumeration",
     "LICENSE",
-    "images",
-    "Module 1"
+    "images"
   ]
 }

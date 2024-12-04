@@ -23,8 +23,7 @@ We can also use PowerShell Module AADInternal tool for recon:
 - we can run this tool by runnning powershell and following the below commands:
 ```
 Install-Module AADInternals
-Import Module https://github.com/Gerenios/AADInternals
-AADInternals.psd1 -verbose
+Import Module /Tools/AADInternals/AADInternals.psd1 -verbose
 ```
 
 You can get the name, authentication, brand name and domain name 
